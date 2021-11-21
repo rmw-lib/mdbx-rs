@@ -1,5 +1,5 @@
 [package]
-name = "mdbx-sys"
+name = "rmw-mdbx-sys"
 # NB: When modifying, also modify html_root_url in lib.rs
 # NB: The version must match the version of mdbx
 version = "0.9.3"
@@ -12,9 +12,9 @@ authors = [
 ]
 license = "Apache-2.0"
 description = "Rust bindings for mdbx."
-documentation = "https://docs.rs/mdbx-sys"
-homepage = "https://github.com/vorot93/mdbx-rs"
-repository = "https://github.com/vorot93/mdbx-rs"
+documentation = "https://docs.rs/rmw-mdbx-sys"
+homepage = "https://github.com/rmw-lib/mdbx-rs"
+repository = "https://github.com/rmw-lib/mdbx-rs"
 readme = "../README.md"
 keywords = ["MDBX", "database", "storage-engine", "bindings", "library"]
 categories = ["database", "external-ffi-bindings"]
@@ -23,7 +23,7 @@ categories = ["database", "external-ffi-bindings"]
 name = "mdbx_sys"
 
 [dependencies]
-libc = "0.2.107"
+libc = "0.2.108"
 
 [build-dependencies]
 cc = "1.0.72"
